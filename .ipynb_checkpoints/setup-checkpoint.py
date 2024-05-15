@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = 'ESSM',
+    name = 'ESSMTools',
     version = '1.0.1',
     description = "Ecosystem Service Scoring and Management tools",
     url = 'https://github.com/MG-Choi/ESSM',
     author = 'Moongi Choi, Jang-Hwan Jo',
     author_email = 'mongil030233@gmail.com',
     packages = find_packages(),
-    package_data = {'ESSM': ['sampleData/ES_scoring/Mireuksan_sample.cpg', 'sampleData/ES_scoring/Mireuksan_sample.dbf', 'sampleData/ES_scoring/Mireuksan_sample.prj',
+    package_data = {'ESSMTools': ['sampleData/ES_scoring/Mireuksan_sample.cpg', 'sampleData/ES_scoring/Mireuksan_sample.dbf', 'sampleData/ES_scoring/Mireuksan_sample.prj',
                              'sampleData/ES_scoring/Mireuksan_sample.sbn', 'sampleData/ES_scoring/Mireuksan_sample.sbx', 'sampleData/ES_scoring/Mireuksan_sample.shp',
                              'sampleData/ES_scoring/Mireuksan_sample.shp.xml', 'sampleData/ES_scoring/Mireuksan_sample.shx']},
     include_package_data = True,
@@ -34,8 +34,10 @@ note: How to make library
 - 이후 upload를 위해 https://pypi.org/manage/account/token/ 여기서 token을 받아야함. 그리고 밑에 처럼 토큰을 입력.
 - 예로 토큰이 pypi-asdadsdas-adwdas 라면
 - twine upload dist/* -u __token__ -p pypi-asdadsdas-adwdas
+  아니면 twine upload dist/* 하고 token 입력
 - 업데이트시에는 setup.py -> 0.02로 하고 다시 위 과정 반복
 
+twine upload dist/* -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDJiNmQ5OTRhLTFiZDQtNDIxNS04NjM0LTRmOTQ5NjQzMDUyNwACKlszLCIyYjI3OWNjMi1lYjE1LTQ3YTgtYTA3YS0zZjM5ZGIwOWMxZDEiXQAABiBDqinSY-9FQjkdFk1zeN1ELZCvDbz3OSeyfMQaR-gg3w
 
 library test는 cmd에서 한다.
 
