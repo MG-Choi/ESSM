@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'ESSMTools',
-    version = '1.0.1',
+    version = '1.0.2',
     description = "Ecosystem Service Scoring and Management tools",
     url = 'https://github.com/MG-Choi/ESSM',
     author = 'Moongi Choi, Jang-Hwan Jo',

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'ESSMTools',
-    version = '1.0.1',
+    version = '1.0.2',
     description = "Ecosystem Service Scoring and Management tools",
     url = 'https://github.com/MG-Choi/ESSM',
     author = 'Moongi Choi, Jang-Hwan Jo',
@@ -37,7 +37,7 @@ note: How to make library
   아니면 twine upload dist/* 하고 token 입력
 - 업데이트시에는 setup.py -> 0.02로 하고 다시 위 과정 반복
 
-twine upload dist/* -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDJiNmQ5OTRhLTFiZDQtNDIxNS04NjM0LTRmOTQ5NjQzMDUyNwACKlszLCIyYjI3OWNjMi1lYjE1LTQ3YTgtYTA3YS0zZjM5ZGIwOWMxZDEiXQAABiBDqinSY-9FQjkdFk1zeN1ELZCvDbz3OSeyfMQaR-gg3w
+twine upload dist/* -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDI1Y2U1YjI2LTdhOGQtNDExMy04MzkwLWQ4NmU3Y2M2MDY1NQACEVsxLFsiZXNzbXRvb2xzIl1dAAIsWzIsWyIzYjE0ODUyOS04MzE2LTQzZDctODY2OC05YTU5NTQwYzAxNTEiXV0AAAYgZiM4_OIgdTa6v9aXKJRgyvAofZjeg4q8q24hJN1-kCY
 
 library test는 cmd에서 한다.
 
